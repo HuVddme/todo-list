@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar input, .sidebar button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sidebar input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.sidebar button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #61afef;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #528bff;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.main h2 {
+    margin-top: 0;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
